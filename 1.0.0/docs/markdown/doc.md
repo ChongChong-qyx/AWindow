@@ -24,11 +24,11 @@ git clone https://github.com/ChongChong-qyx/AWindow.git
 
 点击下载好的安装程序，点击 Next，
 
-![](./photo/qt-1.png)
+![](./photo/qt-1.png?raw=true)
 
 然后输入自己的 Qt 账户（没有就注册一个），点击 Next，
 
-![](./photo/qt-2.png)
+![](./photo/qt-2.png?raw=true)
 
 然后不停点击“下一步”，直到出现一个选择“选择组件”窗口，要把所有都选上（需要 11 GB），然后接着不停点击下一步，安装好 Qt。
 
@@ -38,13 +38,13 @@ git clone https://github.com/ChongChong-qyx/AWindow.git
 
 然后双击下载好的 VSIX 文件，安装好后，重启 Visual Studio, 点击 扩展 -> Qt VS Tools -> Qt Opitions，
 
-![](./photo/2.png)
+![](./photo/2.png?raw=true)
 
-![](./photo/1.png)
+![](./photo/1.png?raw=true)
 
 点击 Add，
 
-![](./photo/3.png)
+![](./photo/3.png?raw=true)
 
 输入 QMake 支持的编译器名称（如 msvc2017_64）和 QMake 的目录（即 Qt 目录\版本名\编译器名），然后点击 OK 即可。
 
@@ -56,7 +56,7 @@ git clone https://github.com/ChongChong-qyx/AWindow.git
 
 打开 Visual Studio，创建一个 Qt Widgets Application 项目，
 
-![](./photo/vs-1.png)
+![](./photo/vs-1.png?raw=true)
 
 然后根据自己的喜好设置项目即可。
 
@@ -64,9 +64,9 @@ git clone https://github.com/ChongChong-qyx/AWindow.git
 
 请在项目设置中的 VC++ 目录栏中的包含目录中添加 AWindow 库中的 include 文件夹的路径，在 库目录中添加 AWindow 库中的 lib 文件夹的路径，然后在链接器 -> 输入栏中的附加依赖项中添加 AWindow 库中的 lib 文件夹中的 AWindow.lib（Release，Debug 是 AWindow 库中的 lib 文件夹中的 debug 文件夹中的 AWindow.lib）。
 
-![](./photo/set-1.png)
+![](./photo/set-1.png?raw=true)
 
-![](./photo/set-2.png)
+![](./photo/set-2.png?raw=true)
 
 ## 使用教程
 
