@@ -2,6 +2,7 @@
 #include <QtWidgets/QAbstractButton>
 
 MessageBoxAboutWindow::MessageBoxAboutWindow(QWidget* parent)
+	: QMessageBox(parent)
 {
 	this->setWindowTitle(QString::fromUtf16(u"Window Title"));
 

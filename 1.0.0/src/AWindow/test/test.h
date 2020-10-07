@@ -2,7 +2,6 @@
 
 #include <QtWidgets/QMessageBox>
 #include <QtWidgets/QLabel>
-#pragma comment(lib, "AWindow.lib")
 
 class MessageBoxAboutWindow : public QMessageBox
 {
