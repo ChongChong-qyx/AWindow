@@ -1,4 +1,5 @@
-﻿  moc test.h
+﻿  Reading Qt configuration (D:/Qt/Qt5/Qt5.14.2/5.14.2/msvc2017/bin/qmake)
+  moc test.h
   main.cpp
   moc_test.cpp
   test.vcxproj -> D:\虫虫文件\程序\程序\C++\项目\库\AWindow\1.0.0\src\AWindow\Debug\test.exe
